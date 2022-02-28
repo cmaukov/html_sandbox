@@ -44,3 +44,26 @@ footer{
     left: 0;
     width: 100%;
 }
+
+#menu li{
+    display: inline;
+    padding: 8px;
+    background-color: rgb(42, 40, 40);
+   
+}
+#menu li a{
+    color: white !important;
+    text-decoration: none;
+
+}
+#menu li.active{
+background-color: darkslateblue;
+}
+#menu{
+    float:right;
+}
+
+header #dogshot, header #siteName, header #menu{
+    display: inline;
+    vertical-align: middle;
+}
