@@ -1,0 +1,46 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+main{
+    background-color: rgb(197, 197, 197);
+     padding: 4px; 
+     color: #202020;
+}
+h1, h2{
+    color:darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+img{
+    max-width: 500px;
+}
+#dogshot{
+    border: 1px solid #808080;
+    padding: 2px;
+    margin: 8px;
+    border-radius: 8px;
+
+}
+
+.experience{
+    border: inset 1px;
+    margin-bottom: 4px;
+    padding: 4px;
+    background-color: white;
+    color:#222;
+}
+.experience .title{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #202020;
+    color: lightblue;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
