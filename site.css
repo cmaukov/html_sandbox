@@ -63,7 +63,16 @@ background-color: darkslateblue;
     float:right;
 }
 
-header #dogshot, header #siteName, header #menu{
+header{
+    display:flex;
+    justify-content: start;
+    /* align-items: center; */
+}
+header #menu{
+    margin-left: auto;
+}
+
+/* header #dogshot, header #siteName, header #menu{
     display: inline;
     vertical-align: middle;
-}
+} */
