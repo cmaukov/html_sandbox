@@ -19,3 +19,25 @@ function showMessage(message){
     formInfo.innerHTML = "<p>"+ message+"</p>";
 
 }
+
+function clearMessage(){
+    formInfo.innerHTML = "";
+}
+
+const contactForm = document.getElementById("contactForm");
+contactForm.addEventListener("submit",function(event){
+event.preventDefault();
+showMessage("Sending your message...");
+});
+
+const experiences = document.getElementsByClassName("experience");
+
+
+for (const item of experiences){
+    item.addEventListener("mouseenter",function(event){
+        event.target.style = "background-color: #999999"
+    });
+    item.addEventListener("mouseleave",function(event){
+        event.target.style = ""
+    });
+}
